@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roll Simulator</title>
+    <!-- Stylsheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body class="bg-slate-100 font-main min-h-screen">
+    <h1
+      class="text-center mt-12 text-3xl font-semibold tracking-wide md:text-5xl md:tracking-widest"
+    >
+      Dice Roll Simulator
+    </h1>
+    <div id="dice" class="text-center text-[8rem]">⚄</div>
+    <button
+      id="roll-btn"
+      class="bg-sky-700 p-4 font-semibold mx-auto rounded-md flex text-lg tracking-widest text-white hover:bg-sky-600 shadow-lg transition"
+    >
+      Roll Dice
+    </button>
+
+    <!-- Rolls History -->
+    <ul
+      id="roll-history"
+      class="pb-10 mt-10 flex flex-col space-y-6 justify-center items-center"
+    >
+      <!-- <li
+        class="flex justify-between w-[300px] text-lg bg-slate-200 p-6 rounded-md shadow-lg md:w-[500px]"
+      >
+        <p class="font-semibold">Roll: 1</p>
+        <span class="md:text-[4rem]">⚄</span>
+      </li> -->
+    </ul>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
